@@ -79,7 +79,18 @@ a {
 h2 {
     font-size: 16px;
 }
+h3 {
+    font-size: 14px;
+    color: rgba(189, 205, 205, 1);
+}
 
+h5 {
+    color: rgb(45, 68, 134);
+}
+h6  {
+    font-size: 18px;
+    color: rgb(23, 200, 132);
+}
 .box-type {
     display: flex;
     justify-content: space-around;
@@ -135,6 +146,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .add {
@@ -251,4 +263,9 @@ input {
     color: mediumspringgreen;
     border-radius: 5px;
     height: 25px;
+}
+
+.money-prize {
+    font-size: 14px;
+    color: rgb(136, 195, 242);
 }
